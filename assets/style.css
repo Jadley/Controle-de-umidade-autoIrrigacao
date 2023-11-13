@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    letter-spacing: 2px;
+    font-family: 'Lilita One', sans-serif;    
+    background-color: #3fbe72;
+    color: #fff; /*todo texto em branco*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+h1, .umi_irri{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+;
+}
+
+h1 {
+    
+    font-size: 32px;
+    margin-bottom: 2px;
+    padding: 5px;
+    margin: 15px
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: normal;
+    
+}
+
+h4 {
+    margin: 5px 0;
+    font-weight: 400;
+    
+}
+
+#ligado, #desligado, .umi_irri, button {
+    text-transform: uppercase
+}
+
+#ligado, #desligado {
+    font-size: 58px;
+}
+
+.umi_irri {
+    font-size: 32px;
+    
+    
+}
+
+#desligado{
+    color: #FF4545; /* Vermelho para texto desligado */
+}
+
+#ligado {
+    color: #006400; /* Verde escuro para texto ligado */
+
+}
+
+/*estilizando a porcentagem com base nos intervalos*/
+#por_cento {
+    content: '%';
+    font-size: 96px;
+    margin-top: 30px;
+}
+
+.umidade_baixa {
+    color: #FF4545; /* Vermelho para umidade de 0-35% */
+}
+
+.umidade_media {
+    color: #1ED6FF; /* Azul para umidade de 36-75% */
+}
+
+.umidade_alta {
+    color: #1e47ff; /* Azul para umidade de 75-100% */
+    
+}
+
+/*configuração do botão*/
+button {
+    padding: 20px;
+    margin-top: 30px;
+    height: 82px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: 1px solid #388e3c;
+    border-radius: 35px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease;
+    
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+.app-container {
+    margin-top: 50px;
+    width: auto;
+    padding: 20px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+    background-color: #1da654;
+    border-radius: 25px;
+
+
+
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1d1d1b;
+
+}
+
+header img {
+    width: 50%;
+    height: 50%;
+    max-width: 200px;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+footer a > img {
+    width: 40px;
+    height: 40px;
+}
